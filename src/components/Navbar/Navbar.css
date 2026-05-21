@@ -1,0 +1,88 @@
+.navbar {
+  background: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.menu {
+  font-size: 28px;
+  cursor: pointer;
+}
+
+/* LOGO */
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-img {
+  width: 80px;
+  height: 55px;
+  object-fit: contain;
+}
+
+.logo-text {
+  color: #0b63ce;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+/* BUTTON */
+
+.signin-btn {
+  border: none;
+  background: #1ea7ff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+
+  .navbar {
+    padding: 12px 15px;
+  }
+
+  .logo-img {
+    width: 45px;
+    height: 45px;
+  }
+
+  .logo-text {
+    font-size: 18px;
+  }
+
+  .signin-btn {
+    padding: 8px 14px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .logo-text {
+    font-size: 15px;
+  }
+
+  .logo-img {
+    width: 80px;
+    height: 38px;
+  }
+
+  .signin-btn {
+    padding: 7px 12px;
+    font-size: 12px;
+  }
+}
