@@ -3,7 +3,9 @@ import Hero from "../components/Hero/Hero";
 import TravelSection from "../components/TravelSection/TravelSection";
 import RechargeSection from "../components/RechargeSection/RechargeSection";
 import OffersSection from "../components/OffersSection/OffersSection";
-import Utilities from "../components/Utilities/Utilities";
+import MyAccounts from "../components/MyAccounts/MyAccounts";
+import Footer from "../components/Footer/Footer";
+// import Utilities from "../components/Utilities/Utilities";
 // import BottomNav from "../components/BottomNav/BottomNav";
 
 function Home() {
@@ -13,9 +15,9 @@ function Home() {
       <Hero />
       <TravelSection />
       <RechargeSection />
-      <Utilities/>
+      <MyAccounts />
       <OffersSection />
-      {/* <BottomNav /> */}
+      <Footer/>
     </>
   );
 }
