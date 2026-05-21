@@ -24,15 +24,18 @@
 }
 
 .logo-img {
+  transform: scale(2.3);
   width: 80px;
   height: 55px;
   object-fit: contain;
+  /* border:2px solid red; */
 }
 
 .logo-text {
   color: #0b63ce;
   font-size: 24px;
   font-weight: 700;
+  margin-left: 10px;
 }
 
 /* BUTTON */

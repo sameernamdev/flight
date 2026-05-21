@@ -64,7 +64,7 @@ function Footer() {
 
           <a href="/">Terms & Conditions</a>
 
-          <a href="/">Cancel, Refund & Shipping Policy</a>
+          {/* <a href="/">Cancel, Refund & Shipping Policy</a> */}
 
           <a href="/">Make Payment</a>
 
