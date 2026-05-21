@@ -1,6 +1,6 @@
 .navbar {
   background: white;
-  padding: 15px 20px;
+  padding: 15px 45px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -24,9 +24,9 @@
 }
 
 .logo-img {
-  transform: scale(3);
-  width: 80px;
-  height: 55px;
+  transform: scale(1.8);
+  width: 100px;
+  height: 60px;
   object-fit: contain;
   /* border:2px solid red; */
 }
@@ -35,7 +35,7 @@
   color: #0b63ce;
   font-size: 24px;
   font-weight: 700;
-  margin-left: 10px;
+  margin-left: 25px;
 }
 
 /* BUTTON */
@@ -55,12 +55,13 @@
 @media (max-width: 768px) {
 
   .navbar {
-    padding: 12px 15px;
+    padding: 12px 45px;
   }
 
   .logo-img {
-    width: 45px;
-    height: 45px;
+    transform: scale(1.8);
+  width: 100px;
+  height: 60px;
   }
 
   .logo-text {

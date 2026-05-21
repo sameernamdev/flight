@@ -8,14 +8,14 @@ function Navbar() {
       <div className="logo-container">
 
         <img
-          src="/img/logo2.png"
+          src="/img/new-logo.png"
           alt="logo"
           className="logo-img"
         />
 
-        <h2 className="logo-text">
+        {/* <h2 className="logo-text">
           Flight And Cars
-        </h2>
+        </h2> */}
 
       </div>
 
