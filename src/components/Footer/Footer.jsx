@@ -85,7 +85,7 @@ function Footer() {
         </div>
 
       </div>
-
+        <div className="copyright">&copy; 2026 Your Company. All rights reserved.</div>
     </footer>
   );
 }

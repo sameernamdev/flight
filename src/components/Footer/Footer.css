@@ -78,6 +78,21 @@
   color: #0b63ce;
 }
 
+.copyright{
+
+  margin-top: 40px;
+
+  text-align: center;
+
+  font-size: 15px;
+
+  color: #666;
+
+  border-top: 1px solid #ddd;
+
+  padding-top: 20px;
+}
+
 /* ========================= */
 /* TABLET */
 /* ========================= */
@@ -142,10 +157,10 @@
     width: 150px;
   }
 
-  .footer-column{
+  /* .footer-column{
 
     text-align: center;
-  }
+  } */
 
   .footer-column h3{
 
@@ -158,6 +173,6 @@
 
     font-size: 16px;
 
-    line-height: 24px;
+    line-height: 16px;
   }
 }
