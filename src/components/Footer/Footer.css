@@ -113,9 +113,14 @@
     justify-content: flex-start;
   }
 
+  .footer-logo{
+    /* border:2px solid red; */
+    height: 80px;
+  }
   .footer-logo img{
 
-    width: 160px;
+    width: 180px;
+    
   }
 
   .footer-column h3{

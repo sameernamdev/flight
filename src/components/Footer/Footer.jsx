@@ -12,7 +12,7 @@ function Footer() {
         <div className="footer-logo">
 
           <img
-            src="/img/logo.png"
+            src="/img/new-logo.png"
             alt="logo"
           />
 
